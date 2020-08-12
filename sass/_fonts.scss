@@ -1,0 +1,27 @@
+@font-face {
+font-family: 'Gilroy Semibold';
+src: url('../fonts/Gilroy-SemiBold.eot');
+src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gilroy Light';
+src: url('../fonts/Gilroy-Light.eot');
+src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Gilroy-Light.woff') format('woff'),
+url('../fonts/Gilroy-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@mixin bold {
+  font-family: 'Gilroy Semibold', sans-serif;
+}
+
+@mixin light {
+  font-family: 'Gilroy light', sans-serif;
+}
