@@ -33,7 +33,8 @@
   width: 100%
   background-color: $primary
   color: #ffffff
-  transform: translateY(-200%)
+  transition: 0.2s
+  transform: translateY(-100%)
   opacity: 0
   &_active
     transform: translateY(0)
@@ -58,6 +59,10 @@
     border-left: 1px solid rgba(#510bba, 0.1)
     height: 80px
     width: 70px
+    &:hover
+      cursor: pointer
+    &:focus
+      outline: none
     &__line
       display: block
       width: 25px
